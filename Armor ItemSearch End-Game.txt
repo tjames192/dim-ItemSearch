@@ -1,0 +1,17 @@
+/* Removes 97.98% of armor | Use w/Dim's Custom Stat Total |
+Update Version: #0001*/
+is:armor -(
+basestat:recovery:>=12 
+basestat:resilience:>=12 
+basestat:discipline:>=12 
+basestat:intellect:<=2 
+basestat:strength:>=2 
+basestat:mobility:>=2
+basestat:total:>=64
+stat:custom:>=30 
+) 
+-is:classitem 
+-is:exotic
+-source:raid
+-source:dcv
+-name:classified
