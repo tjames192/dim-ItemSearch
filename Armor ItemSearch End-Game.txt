@@ -16,3 +16,4 @@ stat:custom:>=30
 -source:raid
 -source:dcv
 -name:classified
+-perkname:"artifice armor"
