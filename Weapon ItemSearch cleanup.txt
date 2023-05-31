@@ -1,7 +1,8 @@
 /* Removes weapons not in wishlist | Use w/Dim's wishlist |
 Update Version: #0001*/
 is:weapon
--is:shaped
--is:wishlist 
+is:trashlist
+-light:>1800
 -light:pinnaclecap 
 -is:exotic
+-is:shaped
