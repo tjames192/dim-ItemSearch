@@ -12,3 +12,4 @@ OR -maxbasestatvalue:discipline
 -source:dcv 
 -name:classified 
 -perkname:"artifice armor" 
+-(is:exotic stat:custom:>=30 AND basestat:total:>=64)
