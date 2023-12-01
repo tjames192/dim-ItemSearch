@@ -4,8 +4,6 @@ is:armor
 basestat:total:<=63 
 OR stat:custom:<=29 
 OR -maxbasestatvalue:resilience 
-OR -maxbasestatvalue:recovery 
-OR -maxbasestatvalue:resilience 
 OR -maxbasestatvalue:discipline 
 -(stat:custom:>=30 AND basestat:total:>=64)  
 -source:raid 
