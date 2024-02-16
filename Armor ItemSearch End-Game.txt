@@ -1,7 +1,7 @@
 /* Removes 97.98% of armor | Use w/Dim's Custom Stat Total |
 Update Version: #0002*/
 is:armor 
-basestat:total:<=64 
+basestat:total:<=64
 OR stat:custom:<=29 
 OR -maxbasestatvalue:resilience 
 OR -maxbasestatvalue:discipline 
